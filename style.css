@@ -159,3 +159,19 @@
     line-height: 1.7;
   }
 }
+/* Menu mobile Home */
+#nav {
+  display: none;
+}
+
+#nav.open {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 801px) {
+  #nav {
+    display: flex;
+  }
+}
